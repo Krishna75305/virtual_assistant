@@ -56,7 +56,8 @@
 
 
 import React, { useContext, useRef, useState } from 'react'
-import Card from '../components/card.jsx'
+import Card from "../components/Card.jsx";
+
 import image1 from "../assets/img1.png"
 import image2 from "../assets/img2.png"
 import image3 from "../assets/img3.png"
