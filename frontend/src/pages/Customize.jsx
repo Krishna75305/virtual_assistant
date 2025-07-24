@@ -6,21 +6,21 @@
 import React, { useContext, useRef, useState } from 'react'
 import Card from "../components/Card.jsx";
 
-import image1 from "../assets/img1.png"
-import image2 from "../assets/img2.png"
-import image3 from "../assets/img3.png"
-import image4 from "../assets/img4.png"
-import image5 from "../assets/img5.png"
-import image6 from "../assets/img6.png"
-import image7 from "../assets/img7.png"
-import image8 from "../assets/img8.png"
-import image9 from "../assets/img9.png"
-import image10 from "../assets/img10.png"
-import image11 from "../assets/img11.png"
-import image12 from "../assets/img12.png"
-import image13 from "../assets/img13.png"
-import image14 from "../assets/img14.png"
-import image15 from "../assets/img15.png"
+const image1 = "/img1.png";
+const image2 = "/img2.png";
+const image3 = "/img3.png";
+const image4 = "/img4.png";
+const image5 = "/img5.png";
+const image6 = "/img6.png";
+const image7 = "/img7.png";
+const image8 = "/img8.png";
+const image9 = "/img9.png";
+const image10 = "/img10.png";
+const image11 = "/img11.png";
+const image12 = "/img12.png";
+const image13 = "/img13.png";
+const image14 = "/img14.png";
+const image15 = "/img15.png";
 import { LuImagePlus } from "react-icons/lu";
 import { userDataContext } from '../context/UserContext.jsx'
 import { useNavigate } from 'react-router-dom'
